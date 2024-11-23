@@ -1,0 +1,23 @@
+.lead__image-alt {
+    font-family: 'Inter';
+    font-weight: lighter;
+    font-size: 10px;
+    max-width: 158px;
+    line-height: 1.4;
+    margin: 8px 0 0 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-alt {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-alt {
+        padding-left: 16px;
+    }
+}

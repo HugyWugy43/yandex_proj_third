@@ -1,0 +1,26 @@
+.entry__title {
+    max-width: 690px;
+    font-family: 'Inter';
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.09;
+    margin: 0;
+    margin: 0 0 40px 0;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 372px) {
+    .entry__title {
+        max-width: 288px;
+        font-size: 28px;
+        line-height: 1.07;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .entry__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1.07;
+    }
+}
